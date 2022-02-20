@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins-Regular;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.capa{
+    width: 75%;
+    height: 100vh;
+    background-image: url("../img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.formData{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+
+
+.formData h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formData input{
+    width: 80%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(127, 197, 255);
+}
